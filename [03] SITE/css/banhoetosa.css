@@ -1,0 +1,135 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+
+}
+ul {
+    padding: 0px!important;
+}
+.menu-principal {
+    width: 100%;
+    background-color: #662102;
+    height: 130px;
+}
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo {
+    float: left;
+    padding: 01px;
+    width: 30%;
+}
+.header-2 {
+    background-color: #27b3a3;
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.menu-urls {
+    height: 70px;
+    width: 100%;
+    border-bottom: 3px solid  #662102;
+    background-color: #27b3a3;
+}
+.menu ul li {
+    display: inline-block;
+    color: gray;
+    margin-left: 13px;
+    flex-direction: row;
+}
+.menu ul li:hover {
+    border-bottom: 3px solid #b35227;
+}
+.menu ul li a:hover {
+    color: #662102;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.menu {
+    width: 100%;
+    float: left;
+}
+.foto1 {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.foto2 {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.foto3 {
+    width: 34%;
+    float: left;
+    text-align: center;
+}
+.foto4 {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.foto5 {
+    width: 34%;
+    float: left;
+    text-align: center;
+}
+.foto1 h3 {
+    width: 90%;
+    padding: 20px;
+}
+.foto2 h3 {
+    width: 90%;
+    padding: 25px;
+}
+.foto3 h3 {
+    width: 90%;
+    padding: 25px;
+}
+.foto4 h3 {
+    width: 90%;
+    padding: 25px;
+}
+.foto5 h3 {
+    width: 90%;
+    padding: 25px;
+}
+.footer {
+    background-color: #662102;
+    height: 30px;
+    margin-top: 1400px;
+    padding: 16px;
+    position: relative;
+    width: 1920px;
+
+}
+.content ul li {
+    display: inline-block;
+    flex-direction: row;
+    padding: 4px;
+    margin-left: 112px;
+    position: relative;
+    top: -14px;
+    font-size: 20px;
+    color: white;
+    left: 111px;
+}
+.content ul li:hover {
+    border-bottom: 3px solid #b35227;
+}
+.content ul li a:hover {
+    color: #27b3a3;
+}
+.content  ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;

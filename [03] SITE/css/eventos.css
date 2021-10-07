@@ -1,0 +1,171 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+
+}
+ul {
+    padding: 0px!important;
+}
+.menu-principal {
+    width: 100%;
+    background-color: #662102;
+    height: 130px;
+}
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo {
+    float: left;
+    padding: 01px;
+    width: 30%;
+}
+.header-2 {
+    background-color: #27b3a3;
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.menu-urls {
+    height: 70px;
+    width: 100%;
+    border-bottom: 3px solid  #662102;
+    background-color: #27b3a3;
+}
+.menu ul li {
+    display: inline-block;
+    color: gray;
+    flex-direction: row;
+    padding: 4px;
+     margin-left: 10px;
+}
+.menu ul li:hover {
+    border-bottom: 3px solid #b35227;
+}
+.menu ul li a:hover {
+    color: #662102;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.menu {
+    width: 100%;
+    float: left;
+}
+
+.lista-eventos {
+    width: 360px;
+    border : 10px inset #27b3a3;
+    padding: 21px;
+    margin: 15px;
+    text-align: center;
+    position: relative;
+    bottom: 01px;  
+}
+.a {
+    padding: 06px;
+    font-size: 20px;
+}
+.lista-eventos li {
+    font-size: 20px;
+}
+.lista ul li {
+    text-align: center;
+    display: inline-block;
+
+}
+.evento-1 img {
+   
+    float: right;
+    margin-right: 21px;
+    position: relative;
+    bottom: 745px;
+}
+.evento-1 h2 {
+    float: left;
+    margin-left: 272px;
+    position: relative;
+    left: 181px;
+    bottom: 764px;
+}
+.evento-1 p {
+    position: relative;
+    bottom: 696px;
+    font-size: 19px;
+}
+.evento-2 img {
+  
+    float: left;
+    padding: 15px;
+    margin-left: 350px;
+    position: relative;
+    left: 115px;
+    bottom: 765px;
+}
+.evento-2 h2 {
+    text-align: center;
+    position: relative;
+    bottom: 660px;
+}
+.evento-2 p {
+    position: relative;
+    left: 116px;
+    bottom: 621px;
+    font-size: 19px;
+}
+.evento-3 img {
+   
+    float: right;
+    margin-right: 32px;
+    position: relative;
+    bottom: 558px;
+}
+.evento-3 h2 {
+    position: relative;
+    right: 114px;
+    bottom: 540px;
+}
+.evento-3 p {
+    position: relative;
+    right: 113px;
+    bottom: 536px;
+    font-size: 20px;
+}
+.footer {
+    background-color: #662102;
+    height: 30px;
+    margin: auto;
+    padding: 16px;
+    position: relative;
+    width: 1920px;
+    margin-top: -55px;
+
+}
+.content ul li {
+    display: inline-block;
+    flex-direction: row;
+    padding: 4px;
+    margin-left: 184px;
+    position: relative;
+    top: -14px;
+    font-size: 20px;
+    color: white;
+    right: 161px;
+}
+.content ul li:hover {
+    border-bottom: 3px solid #b35227;
+}
+.content ul li a:hover {
+    color: #27b3a3;
+}
+.content  ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
